@@ -1,1 +1,7 @@
 body{background-color: burlywood;}
+nav{display: flex;
+    margin: auto;
+    align-items: center;
+    max-width: 90vw;
+    justify-content: space-between;
+}
