@@ -1,7 +1,91 @@
-body{background-color: burlywood;}
-nav{display: flex;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
     margin: auto;
-    align-items: center;
-    max-width: 90vw;
-    justify-content: space-between;
+    padding: 40px;
+}
+
+h2 {
+    color: #0a3d62;
+    border-bottom: 2px solid #0a3d62;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* About */
+.about p {
+    font-size: 17px;
+}
+
+/* Skills */
+.skill-box {
+    margin-top: 15px;
+}
+
+.skill-box span {
+    display: inline-block;
+    background-color: #0a3d62;
+    color: white;
+    padding: 8px 15px;
+    margin: 6px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Projects */
+.project-card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact */
+.contact ul {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.contact li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
