@@ -1,65 +1,60 @@
-
+/* ---------- Horizontal Mobile Layout ---------- */
 @media (max-width: 768px) {
 
     body {
-        height: auto;
-        padding: 20px;
+        height: 100vh;
+        overflow-x: auto;
     }
 
     .container {
-        flex-direction: column;
-        width: 100%;
+        flex-direction: row;
+        width: 900px;              /* forces horizontal layout */
         height: auto;
         padding: 20px;
-        gap: 20px;
+        overflow-x: auto;
     }
 
-  
+    /* Left Profile Card */
     .profile-card {
-        width: 100%;
+        width: 280px;
+        min-width: 280px;
         padding: 25px 20px;
-        border-radius: 20px;
+        border-radius: 18px;
     }
 
     .profile-card img {
-        width: 140px;
-        height: 140px;
+        width: 120px;
+        height: 120px;
     }
 
     .profile-card h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
-  
+    /* Right Content */
     .content {
-        width: 100%;
-        padding: 10px;
-        text-align: center;
+        width: 600px;
+        min-width: 600px;
+        padding: 20px 30px;
     }
 
     .content h1 {
-        font-size: 32px;
-    }
-
-    .subtitle {
-        font-size: 15px;
-    }
-
-    .buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        align-items: center;
-    }
-
-    .btn {
-        width: 90%;
-        padding: 14px;
-        font-size: 16px;
+        font-size: 34px;
     }
 
     .description {
         font-size: 14px;
-        max-width: 100%;
+        line-height: 1.6;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 15px;
     }
 }
