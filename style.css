@@ -4,7 +4,6 @@
         height: 100vh;
         overflow-x: auto;
     }
-
     .container {
         flex-direction: row;
         width: 900px;              /* forces horizontal layout */
